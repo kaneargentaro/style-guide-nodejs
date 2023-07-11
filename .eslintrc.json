@@ -1,0 +1,53 @@
+/**
+ * Created by Kane Argentaro
+ * https://eslint.org/docs/latest/rules/
+ */
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "accessor-pairs": "off",
+        "array-bracket-newline": "off",
+        "array-bracket-spacing": ["warn", "always"],
+        "array-element-newline": "off",
+        "arrow-body-style": "warn", //todo
+        "array-callback-return": ["warn", {"checkForEach": true, "allowImplicit": true}],
+        "arrow-parens": ["warn", {"as-needed": {"requireForBlockBody": true}}],
+        "arrow-spacing": ["warn", { "before": true, "after": true }],
+        "block-scoped-var": "warn",
+        "block-spacing": ["warn", "never"],
+        "brace-style": ["warn", "1tbs", { "allowSingleLine": true }],
+        "callback-return": ["warn", {"checkForEach": true, "allowImplicit": true}],
+        "camelcase": "off",
+        "capitalized-comments": "off",
+        "class-methods-use-this": "off",
+        "comma-dangle": "off",
+        "comma-spacing": "warn",
+        "comma-style": "warn",
+        "complexity": "off",
+        "computed-property-spacing": "warn",
+        "consistent-return": "warn",
+        "consistent-this": "off",
+        "constructor-super": "warn",
+        "curly": ["warn", "consistent", "multi-or-nest"],
+        "default-case": "warn",
+        "dot-location": "warn",
+        "dot-notation": "warn",
+        "eol-last": "warn",
+        "eqeqeq": "warn",
+        "for-direction": "warn",
+        "func-call-spacing": "warn",
+
+        "indent": "warn",
+
+        "spaced-comment": "warn"
+
+    }
+}
